@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Halaman-1" id="5_w9AxbEN_6rnrVtJRkW">
-    <mxGraphModel dx="4074" dy="2220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,7 +130,7 @@
         <mxCell id="ACHc1v6rXymE3tVFQivt-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-36" target="ACHc1v6rXymE3tVFQivt-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ACHc1v6rXymE3tVFQivt-36" value="End Iterate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
+        <mxCell id="ACHc1v6rXymE3tVFQivt-36" value="End Iterate $order.order_detail" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
           <mxGeometry x="831" y="980" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-37" target="ACHc1v6rXymE3tVFQivt-102">
@@ -153,13 +153,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACHc1v6rXymE3tVFQivt-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-104" target="ACHc1v6rXymE3tVFQivt-114">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1560" y="1415" />
-              <mxPoint x="1560" y="880" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-104" target="ACHc1v6rXymE3tVFQivt-150">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-104" value="data_courier_list == null" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
           <mxGeometry x="831" y="1375" width="80" height="80" as="geometry" />
@@ -170,8 +165,44 @@
         <mxCell id="ACHc1v6rXymE3tVFQivt-107" value="Status = 200&lt;div&gt;Messaage = Kurir Tidak Tersedia&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
           <mxGeometry x="560" y="1380" width="120" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-114" target="ACHc1v6rXymE3tVFQivt-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-114" value="data_courier_list. api_service_id == biteship" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
           <mxGeometry x="1800" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-138" value="Check Lat &amp;amp; Long" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
+          <mxGeometry x="2000" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-140" target="ACHc1v6rXymE3tVFQivt-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-140" value="data_latlong" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
+          <mxGeometry x="2240" y="865" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-138" target="ACHc1v6rXymE3tVFQivt-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-144" value="{&lt;br&gt;  &quot;origin_latitude&quot;: $data_latlong.OriginLat,&lt;br&gt;  &quot;origin_longitude&quot;: $data_latlong.OriginLong,&lt;br&gt;  &quot;destination_latitude&quot;: $checkout.order.latitude,&lt;br&gt;  &quot;destination_longitude&quot;: $checkout.order.longitude,&lt;br&gt;  &quot;couriers&quot;: $data_courier_list.courier_code&amp;nbsp;,&lt;br&gt;  &quot;items&quot;: [&lt;br&gt;    {&lt;br&gt;      &quot;name&quot;: $checkout.order.order_detail.article_code,&lt;br&gt;      &quot;description&quot;: $checkout.order.order_detail.article_short_desc,&lt;br&gt;      &quot;value&quot;: $checkout.order.order_detail.price * $checkout.order.order_detail.qty,&lt;br&gt;      &quot;length&quot;: $checkout.order.order_detail.length,&lt;br&gt;      &quot;width&quot;: $checkout.order.order_detail.width,&lt;br&gt;      &quot;height&quot;: $checkout.order.order_detail.height,&lt;br&gt;      &quot;weight&quot;: $data_courier_list.Bobot,&lt;br&gt;      &quot;quantity&quot;: $checkout.order.order_detail.qty&lt;br&gt;    }&lt;br&gt;  ]&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
+          <mxGeometry x="2570" y="350" width="340" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-145" target="ACHc1v6rXymE3tVFQivt-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-145" value="Iterate $order.order_detail.filter(x -&amp;gt; x.is_merchandise_article == true)&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
+          <mxGeometry x="2460" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;jumpStyle=arc;dashed=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-147" target="ACHc1v6rXymE3tVFQivt-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-147" value="Hit BiteShip" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
+          <mxGeometry x="2680" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-150" value="Iterate data_courier_list" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-16">
+          <mxGeometry x="1600" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ACHc1v6rXymE3tVFQivt-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.103;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ACHc1v6rXymE3tVFQivt-16" source="ACHc1v6rXymE3tVFQivt-150" target="ACHc1v6rXymE3tVFQivt-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-38" value="Postgres" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-2">
           <mxGeometry y="9300" width="6890" height="3820" as="geometry" />
@@ -261,7 +292,7 @@
         <mxCell id="ACHc1v6rXymE3tVFQivt-56" value="Output" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-38">
           <mxGeometry x="2350" y="160" width="153" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ACHc1v6rXymE3tVFQivt-57" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;-&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-56">
+        <mxCell id="ACHc1v6rXymE3tVFQivt-57" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;courier_code&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Bobot&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-56">
           <mxGeometry y="30" width="153" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-58" value="WHERE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-38">
