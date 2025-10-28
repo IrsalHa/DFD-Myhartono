@@ -228,10 +228,10 @@
           <mxGeometry y="30" width="153" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-58" value="WHERE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-38">
-          <mxGeometry x="592.5" y="570" width="155" height="110" as="geometry" />
+          <mxGeometry x="592.5" y="570" width="155" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ACHc1v6rXymE3tVFQivt-59" value="MDT.delivery_type = &#39;Instant&#39;;&lt;div&gt;MDT.status = true;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-58">
-          <mxGeometry y="30" width="155" height="80" as="geometry" />
+        <mxCell id="ACHc1v6rXymE3tVFQivt-59" value="MDT.delivery_type = &#39;Instant&#39;;&lt;div&gt;MDT.status = true;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GREATEST((in_akum_volume / SC3P.volume_divider), (in_akum_weight)) BETWEEN (SC3P.min_weight, SC3P.max_weight)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-58">
+          <mxGeometry y="30" width="155" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="ACHc1v6rXymE3tVFQivt-38" source="ACHc1v6rXymE3tVFQivt-61">
           <mxGeometry relative="1" as="geometry">
@@ -245,10 +245,10 @@
           <mxGeometry y="30" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-68" value="s_courier_3rd_party&amp;nbsp; (SC3P)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-38">
-          <mxGeometry x="1396" y="580" width="160" height="100" as="geometry" />
+          <mxGeometry x="1396" y="580" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ACHc1v6rXymE3tVFQivt-69" value="delivery_type&lt;div&gt;status&lt;/div&gt;&lt;div&gt;volume_divider&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-68">
-          <mxGeometry y="30" width="160" height="70" as="geometry" />
+        <mxCell id="ACHc1v6rXymE3tVFQivt-69" value="delivery_type&lt;div&gt;status&lt;/div&gt;&lt;div&gt;volume_divider&lt;/div&gt;&lt;div&gt;min_weight&lt;/div&gt;&lt;div&gt;max_weight&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-68">
+          <mxGeometry y="30" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ACHc1v6rXymE3tVFQivt-75" value="s_courier_3rd_party_detail_delivery_site&amp;nbsp; (SC3PDDS)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="ACHc1v6rXymE3tVFQivt-38">
           <mxGeometry x="1391" y="910" width="229" height="100" as="geometry" />
